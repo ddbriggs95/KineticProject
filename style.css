@@ -1,12 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
-.container {
-    width: 100%;
-    white-space: nowrap;
-}
 
 h1 {
     color: green;
