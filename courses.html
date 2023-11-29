@@ -23,9 +23,11 @@ rel="stylesheet"
   </head>
   <body>
     <!-- <h1 class="text-primary">Bama Golf</h1> -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-info-subtle" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" id="title" href="#">Bama Golf</a>
+        <a class="navbar-brand" id="title" href="#">
+         <h1>Bama Golf</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +41,11 @@ rel="stylesheet"
         </div>
       </div>
     </nav>
-    <h2>Checkout these local Alabama Courses!</h2>
+    <div class="p-5 text-md-left bg-body-tertiary">
+      <h1 class="mb-3">Choose a course to learn more!</h1>
+      <!-- <h4 class="mb-3">Subheading</h4> -->
+      <!-- <a data-mdb-ripple-init class="btn btn-primary" href="" role="button">Call to action</a> -->
+    </div>
 <!---------------------------Course Cards------------------------------------------------>
 <div class="container">
   <div class="row g-3">
@@ -79,7 +85,28 @@ rel="stylesheet"
         </div>
       </div>
     </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="images/oxmoorvalley.jpg" alt="Oxmoor Valley Golf Course" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Oxmoor Valley Golf Course</h5>
+          <p class="card-text">This is where I will have a description about the course as well as information on the price and details of location and price.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="images/rossbridge.jpg" alt="Ross Bridge" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Ross Bridge</h5>
+          <p class="card-text">This is where I will have a description about the course as well as information on the price and details of location and price.</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <br>
+  <br>
+
 </div>
 
 <!-- ----------------------------End Course Cards------------------------------------------ -->

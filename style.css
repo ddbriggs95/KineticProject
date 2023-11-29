@@ -1,15 +1,9 @@
-
 body{
+
     /* padding-bottom: 120px; */
     min-height: 100vh;
 }
 
-
-h1 {
-    font-family: 'Comfortaa', sans-serif;
-    color: green;
-}
-  
 .sticky-footer {
     background-color: #555;
     color: white;
@@ -18,7 +12,16 @@ h1 {
     background: #555;
   }
 
-  #title {
+#title {
     font-size:xx-large;
   }
   
+#bannerimg {
+    width: 100%;
+    background-image:url(https://www.freewebheaders.com/wp-content/gallery/golf/golf-sports-and-golfballs-website-header.jpg);
+    height: 500px;
+    /* background-color: purple; */
+    background-position: center;
+    color: rgb(255, 255, 255);
+
+}
