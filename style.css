@@ -1,24 +1,24 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
 body{
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    min-height: 100vh;
 }
 
+
 h1 {
+    font-family: 'Comfortaa', sans-serif;
     color: green;
 }
   
-footer {
+.sticky-footer {
     background-color: #555;
     color: white;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: sticky;
+    top:100%;
     background: #555;
-    
+  }
+
+  #title {
+    font-size:xx-large;
   }
   
