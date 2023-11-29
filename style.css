@@ -40,5 +40,9 @@ footer {
     padding: 20px; /* Adjust the padding as needed */
     color: white; /* Set text color to contrast with the background */
     bottom: auto;
-    height: 180px;
+    height: 165px;
+}
+
+li {
+    list-style-type: none;
 }
