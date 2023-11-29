@@ -25,3 +25,20 @@ body{
     color: rgb(255, 255, 255);
 
 }
+
+.left-text {
+    float:left;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer {
+    background: linear-gradient(to right, #6e6666, #1f1c1c); /* Replace these colors with your desired gradient */
+    padding: 20px; /* Adjust the padding as needed */
+    color: white; /* Set text color to contrast with the background */
+    bottom: auto;
+    height: 180px;
+}
