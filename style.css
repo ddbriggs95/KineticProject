@@ -19,7 +19,7 @@ body{
 #bannerimg {
     width: 100%;
     background-image:url(https://www.freewebheaders.com/wp-content/gallery/golf/golf-sports-and-golfballs-website-header.jpg);
-    height: 500px;
+    height: 300px;
     /* background-color: purple; */
     background-position: center;
     color: rgb(255, 255, 255);
@@ -45,4 +45,45 @@ footer {
 
 li {
     list-style-type: none;
+}
+
+.text-block {
+    background-color: #1f1c1c;
+    max-width: fit-content;
+}
+
+.text-container {
+    max-width:fit-content
+}
+
+.about-image{
+    flex:1;
+    size: 20px;
+    margin-left: auto;
+
+}
+
+.about-image img{
+    max-width: 30%;
+    height: auto;
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    float: left;
+}
+
+.aboutcontent {
+    padding-top: 20px;
+    flex: 1;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+.about-content h2{
+    padding-top: 20px;
+    
 }
