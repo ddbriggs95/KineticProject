@@ -73,13 +73,12 @@ li {
     float: left;
 }
 
-.aboutcontent {
+.about-content {
     padding-top: 20px;
     flex: 1;
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+   
+  
 
 
 }
@@ -87,3 +86,23 @@ li {
     padding-top: 20px;
     
 }
+
+.about-content p {
+    display: flexbox;
+
+}
+
+.accordion-button{
+   
+    font-size: x-large;
+    
+}
+
+#sowhatnext{
+    color: blue;
+}
+
+.accordion-body{
+    font-size: x-large;
+}
+
